@@ -1,0 +1,58 @@
+div.skill-display-parent-container{
+    display: flex;
+    justify-content: center;
+}
+
+div.skill-container{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+    /*flex-wrap: wrap;
+    display: flex;
+    gap: 1em;*/
+    width: fit-content;
+
+}
+
+div.line-block{
+    border-width: 0.1em;
+    border-style: solid;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 1em;
+}
+
+h4.heading-center{
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+
+a.nav-bar-link-current{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-bar-link{
+    text-decoration: none;
+    color: black;
+
+}
+
+ol.nav-bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    margin: 0;
+}
+
+div.nav-bar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 0;
+    margin-bottom: 1em;
+}
